@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./style.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+  </style>
+  <title>3things</title>
+</head>
+
+
+<body>
+  <div id="outer-container">
+    <div id="header">
+
+      <div id='logo'>
+        <img src="https://i.ibb.co/7tc8YFv/Logo.png">
+      </div>
+
+      <div class="menu-items">
+        <ul>
+          <li><a href=""></a>About</li>
+          <li><a href=""></a>Features</li>
+          <li><a href=""></a>Pricing</li>
+          <li><a href=""></a>Testimonials</li>
+          <li><a href=""></a>Help</li>
+          <li><img src="https://i.ibb.co/frqHB7H/signIn.png" id="signIn"></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div id="inner-container">
+
+      <div class="first-fold">
+        <div id="heading">
+          <img src="https://i.ibb.co/pxxFnrV/Heading.png" alt="heading" style="width: 544px; height: 156px;">
+          <p id="liner">we help you achieve more by doing less.<br>
+            choose 3 things to focus on every day.<br>
+            and we will help and reward you for doing them<br>
+          </p>
+          <img src="https://i.ibb.co/DVC2kdN/Button-Get-Started.png" id="getStarted-bttn">
+        </div>
+
+        <div id="heroImage">
+          <img src="https://i.ibb.co/G2RsYwx/Hero-Image.png" alt="heroImage">
+        </div>
+      </div> 
+      <!-- END OF FOLD1 -->
+
+      <div class="fold2">
+        <img src="https://i.ibb.co/2tTJMDH/pngfind-1.png" id="arrow" style="width:250px; height: 239px;">
+        <div id="second-fold-text">
+          <img src="https://i.ibb.co/g7Lxkwd/let-s-get-started.png" id="fold2-heading">
+          <p id="secondfold-subtext">
+            start adding your todo below, press enter to add
+          </p> 
+        </div>
+      </div>
+      <!-- END OF FOLD2 -->
+
+      <div id="todobackground" style="background-color: #FEFAE3; border-radius: 25px; z-index: -3;">    
+        <div class="fold3-box1">
+          <div id="container"> 
+            <img src="https://i.ibb.co/YL687v3/Container-1.png">  
+          </div>
+          
+          <div id="container-items">
+            <div id="taskNum" style="color: white;"> 
+              <p id="number">1</p>
+            </div>
+            <div id="input-box-div" ><textarea id="input-box" placeholder="add your todo item here and press enter to save" ></textarea></div>
+            <p id="todoText"></p>
+            <div id="done" ><img src="https://i.ibb.co/dfMYYMF/doneIcon.png"></div>
+            <div id="delete"><img src="https://i.ibb.co/FgMr0s3/edit-2-48-1-1.png" ></div>
+            <div id="add"><img src="https://i.ibb.co/xJJQPQj/image-1.png"></div>
+          </div>
+          <div id="add-on">
+            <div id="music-container">
+              <!-- <p id="play-text">NOW PLAYING</p> -->
+              <audio id="audioPlayer" controls style="position: absolute; margin-left: 5.6em; margin-top: 2.8em;" autoplay> 
+                <source id="playlist" src=""></source>
+              </audio>
+              <img src="https://i.ibb.co/WW0QGQX/Group-1-3.png">
+              <img id="next" src="https://i.ibb.co/SrgS0Wy/play-next-button.png" style="z-index: 5; position:absolute; margin-top: 3.95em; margin-left: -4.6em;">
+            </div>
+            <div id="timer">
+              <p id="timertext"></p>
+              <img id="timerimage" src="https://i.ibb.co/V9kWGmJ/timer.png">
+            </div>
+            <img id="notesBttn" style="margin-left: -45px;" src="https://i.ibb.co/vht7P6r/Notes.png">
+          </div>
+        </div>
+
+        <div class="fold3-box2">
+          <div id="container"> 
+            <img src="https://i.ibb.co/YL687v3/Container-1.png">  
+          </div>
+          
+          <div id="container-items">
+            <div id="taskNum" style="color: white;"> 
+              <p id="number">2</p>
+            </div>
+            <div id="input-box-div" ><textarea id="input-box" placeholder="add your todo item here and press enter to save" ></textarea></div>
+            <div id="done" ><img src="https://i.ibb.co/dfMYYMF/doneIcon.png"></div>
+            <div id="delete"><img src="https://i.ibb.co/FgMr0s3/edit-2-48-1-1.png" ></div>
+            <div id="add"><img src="https://i.ibb.co/xJJQPQj/image-1.png"></div>
+          </div>
+          <div id="add-on">
+            <div id="music-container">
+              <p id="play-text">NOW PLAYING</p>
+              <img src="https://i.ibb.co/6bfhM2Q/music.png">
+            </div>
+            <div id="timer">
+              <p id="timertext"></p>
+              <img id="timer-image" src="https://i.ibb.co/V9kWGmJ/timer.png">
+            </div>
+            <img style="margin-left: -45px;" src="https://i.ibb.co/vht7P6r/Notes.png">
+          </div>
+        </div>
+
+        <div class="fold3-box2">
+          <div id="container"> 
+            <img src="https://i.ibb.co/YL687v3/Container-1.png">  
+          </div>
+          
+          <div id="container-items">
+            <div id="taskNum" style="color: white;"> 
+              <p id="number">3</p>
+            </div>
+            <div id="input-box-div" ><textarea id="input-box" placeholder="add your todo item here and press enter to save" ></textarea></div>
+            <div id="done" ><img src="https://i.ibb.co/dfMYYMF/doneIcon.png"></div>
+            <div id="delete"><img src="https://i.ibb.co/FgMr0s3/edit-2-48-1-1.png" ></div>
+            <div id="add"><img src="https://i.ibb.co/xJJQPQj/image-1.png"></div>
+          </div>
+          <div id="add-on">
+            <div id="music-container" >
+              <p id="play-text">NOW PLAYING</p>
+              
+              <img src="https://i.ibb.co/6bfhM2Q/music.png">
+            </div>
+            <div id="timer">
+              <p id="timertext"></p>
+              <img id="timer-image" src="https://i.ibb.co/V9kWGmJ/timer.png">
+            </div>
+            <img style="margin-left: -45px;" src="https://i.ibb.co/vht7P6r/Notes.png">
+          </div>
+        </div> 
+      </div>
+
+<!-- This section is for the pop up that selects the count down and the music -->
+      <div id="formblock">
+        <div id="pop-up" >
+          <div id="close-bttn" >
+            <img src="https://i.ibb.co/4mHKjfL/Cross-Button.png">
+          </div>
+      
+          <div id="container">
+            <img src="https://i.ibb.co/6ym1RkT/Pop-Up-time-inspiration.png">
+            <div id="inputtime">
+              <input id="hours" type="number" maxlength="2"; max="24" min="0" >
+              <input id="minutes" type="number" maxlength="2"; max="60" min="0">
+              <input id="seconds" type="number" maxlength="2"; max="60" min="0">
+            </div>
+          </div>
+    
+          <select id="musicType">
+            <option value="Upbeat">Upbeat Music</option>
+            <option value="Speeches">Inspirational Speeches</option>
+          </select>
+          <div id="addbttn">
+            <img src="https://i.ibb.co/7Yh12kk/Addbtn.png">
+          </div>
+        </div>
+      </div>  
+ <!-- The timer and music block ends here      -->
+
+  <!-- this section is for notes     -->
+      <div id="containerNotes" >
+        <div id="notesContainer">
+          <div id="closenotes" >
+            <img src="https://i.ibb.co/4mHKjfL/Cross-Button.png">
+          </div>
+          <img src="https://i.ibb.co/ynTyzfY/Pop-Up-notes-1.png">
+          <div id=inputNotes>
+            <textarea id="notesTextArea" placeholder="press submit to save"></textarea>
+            <p id="notesText"></p>
+          </div>
+          <div id="editBttn">
+            <img src="https://i.ibb.co/zJJc9m6/edit-bttn.png">
+          </div>
+          <div id="submitBttn">
+            <img src="https://i.ibb.co/yg3q6Pv/submit-bttn.png">
+          </div>
+        </div>
+      </div>
+<!-- notes section ends -->
+
+      <!-- <div style="margin-top: 10em;">
+        <p id="tryshit"></p>
+        <p style="margin-left: 10em;" id="srfile">HI</p>
+      </div>
+   -->
+
+    </div>
+    <!-- END of inner container -->
+  </div>
+  <!-- END of outer container -->
+</body>
+
+<script src="./appCountdown.js"></script>
+<script src="./music.js"></script>
+<script src="./notes.js"></script>
+<script src="./todo.js"></script>
+</html>

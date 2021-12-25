@@ -1,0 +1,425 @@
+#outer-container{
+    padding: 0em 5em 1.56em 5em;
+    position: relative;
+}
+
+#header{
+    display: flex;
+    font-family: Roboto;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.menu-items{
+    position: relative;
+    display: flex;
+    float: right;
+    margin-left: 35.6rem;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+li{
+    padding-left: 1.56em;
+    display: flex;
+    position: relative
+}
+
+/* First Fold */
+#inner-container{
+    padding: 0em 4.38em 0em 4.38em;
+}
+
+.first-fold{
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: visible;
+}
+
+.first-fold #heading{
+    padding-top: 9.56em;
+}
+
+.first-fold #heroImage{
+    position: relative;
+    align-content: flex-end;
+}
+
+#liner{
+    padding-left: 5.75em;
+    font-family: Rubik;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 1.2;
+    margin-top: -.5em;
+}
+
+#getStarted-bttn{
+    padding-left: 4em;
+    width: 320px; 
+    height: 169px
+}
+
+/* second fold Fold */
+
+.fold2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    /* background-color: turquoise; */
+    flex-direction: column;
+    padding-bottom: 7em;
+}
+
+#second-fold-text{
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -1em;
+}
+
+#arrow{
+    margin-top: -3em;
+    margin-left: 33em;
+}
+
+#secondfold-subtext{
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: .4em;
+}
+
+.fold3-box1, .fold3-box2{
+    /* background-color: turquoise; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    height: 16em;
+    padding-top: 25px;
+
+    
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+    position: absolute
+}
+
+#container-items{
+    display: flex;
+    /* background-color: khaki; opacity: 35%; */
+    /* opacity: 12%; */
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+    width: 1080px;
+    height: 130px;
+}
+
+#taskNum{
+    /* background-color: red; */
+    position: relative;
+    align-items: center;
+    vertical-align: middle;
+    margin-left: 80px;
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#number{
+    position: relative;
+    margin-left: 10px;
+    color: black;
+}
+
+#input-box-div{
+    position: relative;
+    /* background-color: lawngreen; */
+    margin: 0em 2em 0em 2em;
+    width: 600px;
+    height: 85px;
+    align-items: center;
+    vertical-align: middle;
+    margin-left: 100px;
+    padding-left: .25em;
+    visibility: visible;
+}
+
+#input-box{
+    position: relative;
+    width: 600px;
+    height: 80px;
+    /* margin-left: 180px; */
+    font-family: Rubik;
+    font-weight: normal;
+    font-size: 24px;
+    border: none;
+   
+}
+
+textarea{
+    padding-left: .25em;
+    padding-top: .25em;
+}
+
+
+textarea::placeholder{
+    padding-left: .25em;
+    padding-top: 1em;
+}
+
+#done{
+    margin-left: 25px;
+}
+
+#delete{
+    margin-left: 30px;
+}
+
+#add{
+    margin-left: 35px;
+}
+
+#add-on{
+    margin-top: 120px;
+    margin-left: 150px;
+    display: flex;
+    position: absolute;
+    padding: 0em;
+    /* margin-left: -300px; */
+    flex-direction: row;
+    /* background-color: crimson; */
+}
+
+#timer{
+    display: flex;
+    position: relative;
+    align-items: center;
+    /* background-color: aqua; */
+    margin-left: -45px;
+    
+}
+
+#timertext{
+    position: absolute;
+    align-items: center;
+    margin-left: 110px;
+    /* z-index: 2;  */
+    font-size: 32px; 
+    font-family: Rubik;
+    font-weight: 500;
+    color: rgb(70, 67, 67);
+    
+    /* background-color: antiquewhite */
+}
+
+#timer-image{
+   padding: 0px;
+   /* background-color: beige; */
+   
+}
+
+#timer{
+    display: flex;
+    position: relative;
+    align-items: center;
+    /* background-color: aqua; */
+    margin-left: -45px;
+    
+}
+
+#music-container{
+    align-items: center;
+    /* background-color: ivory; */
+
+}
+
+#play-text{
+    position: absolute;
+    margin-left: 140px;
+    /* z-index: 1;  */
+    font-size: 20px; 
+    font-family: Orbitron;
+    font-weight: 400;
+    margin-top: 58px;
+    color: lawngreen;
+}
+
+#pop-up{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin-bottom: 100px;
+    /* visibility: hidden; */
+    
+}
+
+#addbttn{
+    display: flex;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 50px;
+}
+
+#close-bttn{
+    margin-left: 300px;
+    z-index: 2;
+    /* background-color: lawngreen; */
+    justify-items: right;
+}
+
+#hours, #minutes, #seconds{
+    font-family: Rubik;
+    font-size: 24px;
+    color: rgb(37, 32, 32);
+    width: 3em;
+    text-align: center;
+    margin-right: 21px;
+    margin-left: 5px;
+    border: transparent;
+    background-color: #F3F3F3;
+}
+
+#inputtime{
+    margin-left: -330px;
+    margin-top: -23px;
+}
+
+#container, #containerNotes{
+    display: flex;
+    flex-direction: row;
+}
+
+#musicType{
+    align-items: center;
+    font-family: Rubik;
+    font-size: 18px;
+    height: 30px;
+    margin-left: -325px;
+    margin-top: 274px;
+    border: transparent;
+    background-color: #F3F3F3;
+    z-index: 3;
+    align-items: center;
+}
+
+#todobackground{
+    margin-top: -40px;
+    margin-bottom: 25px;
+}
+
+#formblock{
+    visibility: hidden;
+    display: block;
+    align-items: center;
+    height: 20em;
+    margin-top: -50em;
+    margin-left: 25em;
+    z-index: 10;     
+}
+
+#pop-up{
+    z-index: 10;
+}
+
+#notesContainer{
+    
+    display: block;
+    align-items: center;
+    height: 20em;
+    margin-top: -30em;
+    margin-left: 25em;
+    z-index: 5;
+    position: absolute;
+}
+
+#inputNotes{
+    height: 259px;
+    width: 264px;
+    margin-top: -2.5em;
+    display: flex;
+    overflow-wrap: normal;
+    position: absolute;
+}
+
+#notesTextArea{
+    height: 230px;
+    width: 264px;
+    display: flex;
+    visibility: hidden;
+    /* background-color: aqua; */
+    position: absolute;
+    margin-top: -18.5em;
+    margin-left: 3.2em;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 1.5em;
+    position: absolute;
+    overflow-y: scroll;
+}
+#notesText{
+    width: 264px;
+    display: flex;
+    margin-top: -15em;
+    margin-left: 3.4em;
+    /* background-color: rgb(216, 213, 213); */
+    position: absolute;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5em;
+    max-height: 220px;
+    overflow-y: scroll;
+    overflow: hidden;
+    visibility: visible;
+
+
+}
+
+#editBttn{
+    position: absolute;
+    margin-top: -3.2em;
+    margin-left: 7em;
+}
+
+#closenotes{
+    position: absolute;
+    margin-left: 18.9em;
+}
+#submitBttn{
+    position: absolute;
+    margin-top: -3.2em;
+    margin-left: 14em;
+}
+
+#containerNotes{
+    visibility: hidden;;
+}
+
+#todoText{
+    position: absolute;
+    font-family: Rubik;
+    font-weight: normal;
+    font-size: 24px;
+    border: none;
+    overflow-y: scroll;
+    margin-left: 9em;
+    margin-top: 1em;
+    max-width: 600px;
+    visibility: hidden;
+}
